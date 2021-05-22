@@ -230,7 +230,7 @@ console.log(addNew('N El PP'));
 
 //03
 
-// const changeChar = (str) => 
+// const changeChar = (str) =>
 //     str
 //         .split('')
 //         .map(char => String.fromCharCode(char.charCodeAt
@@ -240,42 +240,24 @@ console.log(addNew('N El PP'));
 // console.log(changeChar('Texto'))
 
 //04
-const getDates = ((date) = new Date ) => {
-    var days = date.days();
-    var months = date.month();
-    var years = date.getyear();
-    return `${days}/${months}/${years}`
+/* const getAlsoSecon = (date = new Date()) => {
+  const days1 = date.getDate();
+  const months1 = date.getMonth();
+  const years1 = date.getFullYear();
+  const minutes1 = date.getMinutes();
+  const seconds1 = date.getSeconds();
+  return `${days1}/${months1}/${years1}/${minutes1}/${seconds1}`;
 };
+console.log(getAlsoSecon()); */
 
-console.log(getDates());
+//Matthew exercisers
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (var i = 1; i <= 100; i++) {
+  if ((i % 3 == 0) & (i % 5 == 0)) {
+    console.log("Fizz Buzz");
+  } else if (i % 3 == 0) {
+    console.log("Fizz");
+  } else if (i % 5 == 0) {
+    console.log("Buzz");
+  } else console.log(i);
+}
